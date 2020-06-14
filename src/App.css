@@ -1,0 +1,166 @@
+.logo {
+  padding: 0.5rem;
+}
+@media (max-width: 600px) {
+  .logo {
+    width: 120px;
+  }
+}
+@media (max-width: 600px) {
+  .logo {
+    padding: 0.2rem;
+  }
+}
+.headerComponent {
+  display: flex;
+  align-items: center;
+  padding: 0.3rem;
+  justify-content: center;
+  background-color: #f2f2f2;
+  height: 5rem;
+}
+
+@media (max-width: 600px) {
+  .headerComponent {
+    padding: 0;
+  }
+}
+.headerList {
+  font-family: "Exo 2", sans-serif;
+  font-size: 1.4rem;
+  color: #141313;
+}
+
+@media (max-width: 600px) {
+  .headerList {
+    font-size: .8rem;
+  }
+}
+.headerList span {
+  padding: 0.5rem;
+  margin-left: 1.5rem;
+  cursor: pointer;
+}
+.headerList span:hover {
+  color: #854fee;
+}
+@media (max-width: 600px) {
+  .headerList span {
+    margin-left: 0rem;
+  }
+}
+
+.bannerImage {
+  height: 600px;
+  margin-top: 7rem;
+}
+@media (max-width: 600px) {
+  .bannerImage {
+    height: 200px;
+    width: 150px;
+  }
+}
+.titltText {
+  padding-top: 10rem;
+  font-family: "Caveat", cursive;
+  font-size: 7rem;
+  margin-left: 4rem;
+}
+@media(max-width:600px){
+  .titltText{
+    padding-top: 3rem;
+    font-size: 2rem;
+    margin-left: .3rem;
+  }
+}
+
+.titleName {
+  font-family: "Exo 2", sans-serif;
+  font-size: 6.5rem;
+  margin-left: 4rem;
+  color: #000000;
+  letter-spacing: 1px;
+}
+@media(max-width:600px){
+  .titleName{
+    font-size: 2rem;
+    margin-left: .3rem;
+  }
+}
+.landingHead {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  opacity: 0.9;
+}
+.headerImg {
+  height: 150px;
+  margin-top: 5rem;
+  padding-top: 1rem;
+  margin-left: 50%;
+}
+.javaDev {
+  margin-left: 4rem;
+  font-family: "Exo 2", sans-serif;
+  font-size: 2.3rem;
+  color: #000000;
+  letter-spacing: 2px;
+}
+@media(max-width:500px){
+  .javaDev{
+    margin-left: .3rem;
+  }
+}
+.landingButton {
+  margin-left: 4rem;
+  height: 3.1rem;
+  font-family: "Exo 2", sans-serif;
+  width: 9rem;
+  border-radius: 0.3rem;
+  font-size: 1.2rem;
+  border: 0.16rem solid #854fee;
+  color: black;
+  margin-top: 1rem;
+}
+.landingButton:hover {
+  transition: 0.3s;
+  /* background-color: #783feb; */
+  color: #ffffff;
+  background: #8e2de2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4a00e0,
+    #8e2de2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4a00e0,
+    #8e2de2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.landingButton:focus {
+  outline: none;
+}
+@media(max-width:600px){
+  .landingButton{
+    margin-left: .5rem;
+  }
+}
+.titleServices h3{
+  font-family: 'Balsamiq Sans', cursive;
+  letter-spacing: 2px;
+}
+.services{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.serviceImg{
+    height: 400px;
+    margin-left: 3rem;
+    padding-top: 5rem;
+}
+.titleServices{
+  
+}
